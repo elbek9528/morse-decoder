@@ -38,7 +38,11 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-    // write your solution here
+    var morseArr = [];
+    var numberArr = expr.split('**********')
+    for (let i = 0; i < numberArr.length; i++) {
+        
+    }
 }
 
 module.exports = {
